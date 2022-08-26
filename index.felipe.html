@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe Correa</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+
+        font-family: monospace;
+    }
+
+    header {
+        height: 50px;
+        background-color: #009879;
+    }
+
+    footer {
+        height: 50px;
+        background-color: #181818;
+    }
+
+    img {
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 50px;
+        text-align: center;
+        color: black;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
+
+    .grid-item {
+        padding: 100px;
+        font-size: 30px;
+    }
+
+    .me {
+        padding: 150px 0;
+        background-color: #181818;
+        color: white;
+    }
+
+    .about-me {
+        padding: 100px 0;
+        background-color: white;
+    }
+
+    .about-me h1{
+        color: black;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        min-width: 400px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    table thead tr {
+        background-color: #009879;
+        text-align: left;
+    }
+
+    .me table thead tr {
+        color: white;
+    }
+
+    .about-me table thead tr {
+        color: black;
+    }
+
+    table th,
+    table td {
+        padding: 12px 35px;
+    }
+
+    a, a:visited {
+        text-decoration: none;
+        color: white;
+        transition: all .8s ease;
+    }
+
+    a:hover {
+        color: #000000;
+        transform: scale(1.1);
+    }
+
+    .header {
+        padding: 10px 100px;
+    }
+
+</style>
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html">
+                <h2>Voltar</h2>
+            </a>
+        </div>
+    </header>
+    <div class="grid-container me">
+        <div class="grid-item"> 
+            <h1>Felipe Correa</h1>
+            <h2>Cursando Bacharelado em Ciências da Computação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Educação</th>
+                        <th>Instituição de Ensino</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ensino Médio/Técnico</td>
+                        <td>Instituto Federal do Paraná</td>
+                    </tr>
+                    <tr>
+                        <td>Graduação</td>
+                        <td>PUCPR</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="grid-item" style="text-align: center;">
+            <img src="assets/Fe.png">
+        </div>
+    </div>
+    <div class="grid-container about-me">
+        <div class="grid-item" style="text-align: center;">
+            <img src="assets/Fe2.jfif">
+        </div>
+        <div class="grid-item"> 
+            <h1>Sobre mim</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hobbies</th>
+                        <th>Gosto músical</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fazer Trilha</td>
+                        <td>Sertanejo</td>
+                    </tr>
+                    <tr>
+                        <td>Pescar</td>
+                        <td>Pagode</td>
+                    </tr>
+                    <tr>
+                        <td>Viajar</td>
+                        <td>Pop</td>
+                    </tr>
+                    <tr>
+                        <td>Nadar</td>
+                        <td>Reggae</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <footer></footer>
+    
+</body>
+</html>
